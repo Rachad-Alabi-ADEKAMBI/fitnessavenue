@@ -1,0 +1,810 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400&display=swap");
+html, body {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "Poppins", sans-serif;
+  font-size: 1.2em;
+  line-height: 1.5em;
+}
+
+.btn {
+  width: auto;
+  min-width: 130px;
+  height: 45px;
+  border-color: purple;
+  border-radius: 10px;
+  border: 2px solid;
+  background-color: purple;
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.btn-white {
+  width: auto;
+  min-width: 130px;
+  height: 45px;
+  border-color: white;
+  border-radius: 10px;
+  border: 2px solid;
+  background-color: white;
+  color: purple;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.btn-black {
+  width: auto;
+  min-width: 130px;
+  height: 45px;
+  border-color: white;
+  border-radius: 10px;
+  border: 2px solid;
+  background-color: white;
+  color: black;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.btn-purple {
+  width: auto;
+  min-width: 130px;
+  height: 45px;
+  border-color: white;
+  border-radius: 10px;
+  border: 2px solid;
+  background-color: purple;
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.btn-link {
+  width: auto;
+  min-width: 130px;
+  height: 45px;
+  border-color: #4c4d4d;
+  border-radius: 10px;
+  border: 2px solid;
+  background-color: #4c4d4d;
+  color: #4c4d4d;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.btn-hidden {
+  width: auto;
+  min-width: 130px;
+  height: 45px;
+  border-color: aliceblue;
+  border-radius: 10px;
+  border: 2px solid;
+  background-color: aliceblue;
+  color: purple;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: purple;
+}
+
+a:hover {
+  font-weight: bold;
+}
+
+h1,
+h2 {
+  font-weight: bold;
+  text-align: center;
+  margin: auto;
+}
+
+.text-grey {
+  text-align: center;
+  color: #4c4d4d;
+  margin: auto;
+}
+
+.text-black {
+  text-align: center;
+  color: #4c4d4d;
+  margin: auto;
+}
+
+.slides {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin: auto;
+  text-align: center;
+  width: 80%;
+}
+.slides .slide {
+  flex: 1;
+}
+.slides .slide .card {
+  text-align: center;
+  margin: auto;
+  width: 90%;
+  padding-top: 10px;
+}
+.slides .slide .card .text-grey {
+  font-size: 3em;
+  font-style: italic;
+  margin: 15px auto;
+}
+.slides .slide .card .text-black {
+  margin: 0px auto;
+}
+.slides .slide .card img {
+  width: 80px;
+  height: 80px;
+  border-radius: 30px;
+  margin: auto;
+}
+
+.content {
+  margin: 0;
+  width: 100%;
+  background-color: white;
+}
+.content .header {
+  width: 100%;
+  height: 60px;
+  margin: 0;
+  background-color: rgba(104, 78, 151, 0.534);
+}
+.content .main {
+  display: block;
+  margin: 0 auto;
+}
+.content .main .hero {
+  height: auto;
+  min-height: 700px;
+  margin: 0 auto;
+  display: block;
+  background-image: linear-gradient(rgba(43, 49, 139, 0.548), rgba(15, 35, 153, 0.589));
+  background-image: url("public/img/group.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100%;
+  padding-top: 100px;
+}
+.content .main .hero__content {
+  width: 80%;
+  margin: auto;
+  height: 100%;
+  padding-top: 110px;
+  text-align: center;
+}
+.content .main .hero__content h1 {
+  font-size: 3em;
+  font-style: italic;
+  color: white;
+}
+.content .main .hero__content p {
+  text-align: center;
+  color: #4c4d4d;
+  margin: auto;
+  margin: 80px auto;
+  font-style: 1.1em;
+  font-weight: 800;
+}
+.content .main .hero__content__buttons {
+  width: 340px;
+  margin: 30px auto;
+}
+.content .main .app {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  flex-wrap: wrap;
+  margin: auto;
+  text-align: center;
+  text-align: center;
+}
+.content .main .app__content {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  flex-wrap: wrap;
+  margin: auto;
+  text-align: center;
+  margin: 40px auto;
+}
+.content .main .app__content h2 {
+  color: purple;
+}
+.content .main .app__content p {
+  margin: 20px auto 0 auto;
+  width: 80%;
+}
+.content .main .app__content__items {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin: auto;
+  text-align: center;
+  margin: 10px auto;
+}
+.content .main .app__content__items .item {
+  height: 280px;
+  width: 300px;
+  border: 2px purple;
+  border-radius: 15px;
+  margin: 30px;
+  box-shadow: 0px 5px 28px rgba(0, 0, 0, 0.1607843137);
+}
+.content .main .app__content__items .item .icon {
+  text-align: center;
+  margin: 30px auto;
+}
+.content .main .app__content__items .item .icon i {
+  font-size: 2em;
+  color: purple;
+  font-weight: bold;
+}
+.content .main .grey {
+  margin: auto;
+  text-align: center;
+}
+.content .main .grey__content {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin: auto;
+  text-align: center;
+  width: 80%;
+}
+.content .main .grey__content__image {
+  width: 500px;
+  height: 500px;
+  text-align: center;
+  flex: 1;
+}
+.content .main .grey__content__image img {
+  width: 100%;
+  height: 100%;
+  border-radius: 15px;
+  margin: auto;
+}
+.content .main .grey__content__text {
+  flex: 1;
+  width: 80%;
+  margin: auto 30px;
+  text-align: left;
+}
+.content .main .grey__content__text h2 {
+  margin: 5px auto auto 0;
+  text-align: left;
+}
+.content .main .grey__content__text p {
+  text-align: justify;
+  margin: 15px auto;
+}
+.content .main .grey__content__text .btn {
+  margin: 15px auto auto 0;
+  width: auto;
+  min-width: 130px;
+  height: 45px;
+  border-color: purple;
+  border-radius: 10px;
+  border: 2px solid;
+  background-color: purple;
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+}
+.content .main .screens {
+  margin: 15px auto 0 auto;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  flex-wrap: wrap;
+  margin: auto;
+  text-align: center;
+  height: auto;
+}
+.content .main .screens__content {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin: auto;
+  text-align: center;
+  width: 80%;
+  width: 100%;
+  margin: 40px auto;
+  text-align: center;
+  flex-direction: column;
+}
+.content .main .screens__content h2 {
+  margin: 40px auto 5px auto;
+  color: purple;
+  text-align: center;
+}
+.content .main .screens__content hr {
+  width: 25%;
+  margin: 5px auto;
+  color: purple;
+  height: 2px;
+  background-color: purple;
+}
+.content .main .screens__content__slider {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin: auto;
+  text-align: center;
+  margin: 20px auto;
+}
+.content .main .screens__content__slider .screen {
+  flex: 1;
+  margin: 10px;
+  border-radius: 10px;
+}
+.content .main .screens__content__slider .screen img {
+  width: 330px;
+  margin: auto;
+  height: 90%;
+  border-radius: 10px;
+}
+.content .main .clients {
+  height: auto;
+  margin: 10px auto 30px auto;
+}
+.content .main .clients__content {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin: auto;
+  text-align: center;
+  width: 80%;
+  flex-direction: column;
+}
+.content .main .clients__content h2 {
+  color: purple;
+}
+.content .main .plan {
+  margin: 50px auto;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  flex-wrap: wrap;
+  margin: auto;
+  text-align: center;
+  background-color: beige;
+  height: auto;
+  padding-bottom: 30px;
+}
+.content .main .plan__content {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin: auto;
+  text-align: center;
+  width: 80%;
+  flex-direction: column;
+  margin: auto;
+  text-align: center;
+}
+.content .main .plan__content h2 {
+  margin: 30px auto 0 auto;
+  color: purple;
+}
+.content .main .plan__content hr {
+  color: purple;
+  margin: auto;
+  width: 200px;
+}
+.content .main .plan__content p {
+  margin: 5px auto;
+}
+.content .main .plan__content__items {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin: auto;
+  text-align: center;
+  text-align: center;
+  width: 100%;
+}
+.content .main .plan__content__items .item {
+  width: 320px;
+  height: auto;
+  padding: 5px;
+  padding-bottom: 20px;
+  border: 2px purple solid;
+  margin: 10px;
+  border-radius: 15px;
+}
+.content .main .plan__content__items .item__up {
+  margin: 0 auto;
+}
+.content .main .plan__content__items .item__up__price {
+  width: 100px;
+  height: 100px;
+  border-radius: 50px;
+  border: 4px solid purple;
+  text-align: center;
+  margin: auto;
+  font-size: 0.9em;
+  margin: 10px auto;
+  font-style: italic;
+  padding-top: 20px;
+  font-weight: bold;
+}
+.content .main .plan__content__items .item__up .text {
+  color: green;
+  font-size: 1.2em;
+  font-weight: 300;
+  margin: 0 auto;
+}
+.content .main .plan__content__items .item__body ul {
+  width: 100%;
+  margin: auto;
+}
+.content .main .plan__content__items .item__body ul li {
+  text-align: left;
+  margin: 10px auto;
+  list-style: circle;
+}
+.content .main .plan__content__items .item__footer {
+  padding-top: 10px;
+}
+.content .main .os {
+  height: auto;
+  background-color: white;
+}
+.content .main .os__content {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  flex-wrap: wrap;
+  margin: auto;
+  text-align: center;
+}
+.content .main .os__content h2 {
+  margin: 50px auto 0 auto;
+}
+.content .main .os__content hr {
+  color: purple;
+  height: 2px;
+  width: 200px;
+  margin: 5px auto 15px auto;
+  background-color: purple;
+}
+.content .main .os__content__items {
+  margin: 20px auto;
+}
+.content .main .faq {
+  margin: 40px auto 0 auto;
+}
+.content .main .faq__content {
+  margin: 30px auto;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  flex-wrap: wrap;
+  margin: auto;
+  text-align: center;
+}
+.content .main .faq__content .accordion .card {
+  border-radius: 15px;
+  width: 80%;
+  background-color: aliceblue;
+  margin: 10px auto;
+}
+.content .main .updates {
+  height: auto;
+  padding-bottom: 30px;
+  display: block;
+  margin: 0px auto;
+}
+.content .main .updates__content {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  flex-wrap: wrap;
+  margin: auto;
+  text-align: center;
+}
+.content .main .updates__content p {
+  margin: 20px auto;
+}
+.content .main .updates__content__articles {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin: auto;
+  text-align: center;
+  width: 90%;
+}
+.content .main .updates__content__articles .article {
+  width: 320px;
+  height: auto;
+  margin: 30px;
+  box-shadow: 0px 5px 28px rgba(0, 0, 0, 0.1607843137);
+  text-align: center;
+  padding-bottom: 20px;
+  border-radius: 10px;
+}
+.content .main .updates__content__articles .article img {
+  margin: 10px auto 0 auto;
+  border-radius: 10px;
+  width: 90%;
+  height: 250px;
+}
+.content .main .updates__content__articles .article h3 {
+  margin: 10px auto 0 auto;
+}
+.content .main .updates__content__articles .article .date {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin: auto;
+  text-align: center;
+  margin: 0 auto;
+}
+.content .main .updates__content__articles .article p {
+  text-align: left;
+  padding-left: 0;
+  width: 95%;
+}
+.content .main .updates__content__articles .article .btn {
+  font-size: 0.8em;
+}
+.content .main .contact {
+  margin: 30px auto;
+}
+.content .main .contact__content {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin: auto;
+  text-align: center;
+  width: 80%;
+}
+.content .main .contact__content__form {
+  flex: 1;
+  text-align: left;
+}
+.content .main .contact__content__infos {
+  flex: 1;
+  text-align: left;
+  padding-left: 20px;
+}
+.content .main .contact__content__infos h2 {
+  margin: 20px auto 10px 0;
+  color: purple;
+  text-align: left;
+}
+.content .main .contact__content__infos p {
+  margin: 5px auto;
+  text-align: left;
+}
+.content .main .contact__content__infos p i {
+  color: purple;
+}
+.content .footer {
+  height: auto;
+  background-color: #111418;
+  margin: 40px auto 0 auto;
+  padding-bottom: 0px;
+}
+.content .footer__content {
+  height: auto;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin: auto;
+  text-align: center;
+  width: 80%;
+}
+.content .footer__content__item {
+  margin: 30px auto;
+  flex: 1;
+}
+.content .footer__content__item p {
+  text-align: left;
+}
+.content .footer__content__item p strong {
+  font-weight: 100;
+  color: white;
+  font-size: 0.9em;
+}
+.content .footer__content__item ul {
+  width: 100%;
+}
+.content .footer__content__item ul li {
+  display: inline;
+  margin: 5px;
+}
+.content .footer__content__item ul li a {
+  cursor: pointer;
+  color: purple;
+}
+.content .footer__content__item ul li a i {
+  color: white;
+  font-size: 1.5em;
+}
+.content .footer__content__item ul li a i:hover {
+  color: purple;
+  font-weight: bold;
+}
+.content .footer__content__item ul li span {
+  font-size: 0.7em;
+  font-weight: 200;
+  color: white;
+}
+
+/*responsive for 1024px*/
+@media screen and (min-width: 1024px) and (max-width: 1279px) {
+  .content .header {
+    display: none;
+  }
+  .content .main .app__content {
+    margin: 30px auto;
+  }
+  .content .main .app__content p {
+    margin: 20px auto;
+  }
+  .content .main .app__content__items {
+    margin: 5px auto;
+  }
+  .content .main .app__content__items .item {
+    width: 280px;
+  }
+  .content .main .app__content__items .item .icon I {
+    font-size: 1.7em;
+  }
+  .content .main .grey__content {
+    width: 95%;
+  }
+  .content .main .screens {
+    margin: 30px auto;
+  }
+  .content .main .screens__content {
+    margin: 10px auto;
+    width: 100%;
+  }
+  .content .main .screens__content h2 {
+    margin: 10px auto;
+  }
+  .content .main .screens__content p {
+    margin: 5px auto 0 auto;
+  }
+  .content .main .screens__content__slider {
+    margin: 5px auto;
+    width: 95%;
+  }
+  .content .main .screens__content__slider .screen img {
+    width: 290px;
+  }
+  .content .main .plan__content {
+    width: 95%;
+  }
+  .content .main .plan__content__items .item {
+    width: 290px;
+  }
+  .content .main .updates__content p {
+    margin: 10px auto;
+  }
+  .content .main .updates__content__articles {
+    width: 100%;
+  }
+  .content .main .updates__content__articles .article {
+    width: 280px;
+  }
+  .content .main .updates__content__articles .article img {
+    height: 200px;
+  }
+  .content .main .contact__content {
+    width: 90%;
+  }
+  .content .main .contact__content__infos h2 {
+    margin: 5px auto;
+  }
+}
+/*responsive for 767px*/
+@media screen and (min-width: 767px) and (max-width: 1023px) {
+  .content .main .grey__content {
+    flex-direction: column;
+  }
+  .content .main .grey__content__image {
+    width: 400px;
+    height: 400px;
+    margin: auto;
+  }
+  .content .main .grey__content__text {
+    margin: 20px auto;
+  }
+  .content .main .plan__content__items {
+    margin: 10px auto;
+    width: 80%;
+  }
+  .content .main .plan__content__items .item {
+    margin: 10px auto;
+  }
+  .content .main .updates {
+    margin: 5px auto;
+  }
+  .content .main .updates__articles .article {
+    margin: 10px auto;
+  }
+  .content .main .contact__content {
+    width: 90%;
+  }
+}
+/*responsive for 350px*/
+@media screen and (min-width: 350px) and (max-width: 766px) {
+  .main .hero__content {
+    padding-top: 80px;
+  }
+  .main .hero__content h1 {
+    font-size: 2.7em;
+  }
+  .main .hero__content p {
+    margin: 40px auto;
+  }
+  .main .hero__content__buttons {
+    display: block;
+    flex-direction: column;
+    display: none;
+    width: 190px;
+  }
+  .main .app__content__items .item .icon i {
+    font-size: 1.5em;
+  }
+  .main .grey__content {
+    display: flex;
+    flex-direction: column;
+  }
+  .main .grey__content__image {
+    width: 330px;
+    height: 330px;
+  }
+  .main .grey__content__text {
+    background-color: red;
+    margin: auto;
+  }
+  .main .screens__content__slider .screen img {
+    width: 300px;
+  }
+  .main .plan__content__items {
+    margin: auto;
+    width: 100%;
+  }
+  .main .plan__content__items .item {
+    margin: auto;
+  }
+  .main .updates__content {
+    text-align: center;
+  }
+  .main .updates__content p {
+    text-align: center;
+  }
+  .main .updates__content__articles {
+    width: 100%;
+  }
+}/*# sourceMappingURL=style.css.map */
