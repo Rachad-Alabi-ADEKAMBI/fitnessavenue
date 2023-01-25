@@ -164,7 +164,7 @@
 
             <div class="grey" id='services'>
                 <div class="grey__content">
-                    <div class="grey__content__image">
+                    <div class="grey__content__image pt-5">
                         <img src="public/img/person.jpg" alt="">
                     </div>
 
@@ -172,18 +172,16 @@
                         <h2>
                             What do we do ?
                         </h2>
-
-                        <p class="text-grey">
-                            We create websites and mobile apps for personnal coachs
-                        </p>
-
                         <p class="text-black">
-                            <span>Are you personal coach ?, do you have clients ?</span>
-                            if you have answered yes to one of the previous question, you
-                            may be interested by our services. <br>
-                            may be interested by our services.
-                            We help coaachs to schedule their coaching sessions, manage customers
-                            and
+                            The web agency "Fitness Avenue" specializes in creating websites and applications for sports
+                            coaches.
+                            We understand the unique needs of coaches and strive to incorporate them into our creations
+                            to make their
+                            professional life easier. <br>
+                            Our team use the latest technologies to create modern, user-friendly websites and
+                            applications tailored to the needs
+                            of each coach. We also offer maintenance service to ensure your website or application is
+                            running smoothly.
                         </p>
 
                         <a class="btn btn-purple" href="#contact">
@@ -389,19 +387,19 @@
             <div class="plan" id='pricing'>
                 <div class="plan__content">
                     <h2>
-                        Plans and pricing
+                        Tarifs
                     </h2>
 
                     <hr>
                     <p class="text text-grey">
-                        We get three differents plans
+                        Sites et applications uniques, selon vos besoins
                     </p>
 
                     <div class="plan__content__items">
                         <div class="item one">
                             <div class="item__up">
                                 <div class="item__up__price">
-                                    $ 200/ year
+                                    $ 300 / an
                                 </div> <br>
 
                                 <p class="text text-red">
@@ -412,26 +410,26 @@
                             <div class="item__body">
                                 <ul>
                                     <li>
-                                        Creation of the website
+                                        Création de 5 pages
                                     </li>
 
                                     <li>
-                                        Customization based on your needs
+                                        Référencement SEO optimisé
                                     </li>
 
                                     <li>
-                                        10 clients allowed
+                                        Hébergement et NDD inclus
                                     </li>
 
                                     <li>
-                                        24/7 support
+                                        Formulaire de contact & prise de RDV
                                     </li>
                                 </ul>
                             </div>
 
                             <div class="item__footer">
                                 <button class="btn btn-red">
-                                    Get Started
+                                    Commander
                                 </button>
                             </div>
                         </div>
@@ -439,7 +437,7 @@
                         <div class="item two">
                             <div class="item__up">
                                 <div class="item__up__price">
-                                    $ 499/ year
+                                    $ 499 / an
                                 </div> <br>
 
                                 <p class="text text-red">
@@ -450,26 +448,26 @@
                             <div class="item__body">
                                 <ul>
                                     <li>
-                                        Creation of the website
+                                        Création de back-office coach et clients
                                     </li>
 
                                     <li>
-                                        Customization based on your needs
+                                        Logiciel de création de programmes
                                     </li>
 
                                     <li>
-                                        10 clients allowed
+                                        Gestion des abonnements clients
                                     </li>
 
                                     <li>
-                                        24/7 support
+                                        Maintenance du site
                                     </li>
                                 </ul>
                             </div>
 
                             <div class="item__footer">
                                 <button class="btn btn-red">
-                                    Get Started
+                                    Commander
                                 </button>
                             </div>
                         </div>
@@ -477,7 +475,7 @@
                         <div class="item one">
                             <div class="item__up">
                                 <div class="item__up__price">
-                                    $ 999/ year
+                                    $ 899 / an
                                 </div> <br>
 
                                 <p class="text text-red">
@@ -488,26 +486,26 @@
                             <div class="item__body">
                                 <ul>
                                     <li>
-                                        Creation of the website
+                                        Application web + mobile
                                     </li>
 
                                     <li>
-                                        Customization based on your needs
+                                        Nombre d'utilisateurs illimité
                                     </li>
 
                                     <li>
-                                        10 clients allowed
+                                        Fonctionnalités avancées
                                     </li>
 
                                     <li>
-                                        24/7 support
+                                        Support premium
                                     </li>
                                 </ul>
                             </div>
 
                             <div class="item__footer">
-                                <button class="btn btn-red">
-                                    Get Started
+                                <button class="btn btn-green">
+                                    Commander
                                 </button>
                             </div>
                         </div>
@@ -519,39 +517,53 @@
             <div class="os" id='os'>
                 <div class="os__content">
                     <h2>
-                        Platforms of usage
+                        3 raisons e créer votre site internet
                     </h2>
 
                     <hr>
 
-                    <p>
-                        chec them
-                    </p>
+                    <div class="row">
+                        <div class="col-sm-12 col-md-4">
+                            <img src="/public/img/annie-spratt-oQfSHQ2Uaic-unsplash.jpg" alt="">
+                            <p>
+                                Améliorez votre visibilité
+                            </p>
 
-                    <div class="os__content__items">
-                        <button class="btn btn-white">
-                            IOS
-                        </button>
+                            <div class="icon">
 
-                        <button class="btn btn-white">
-                            Windows
-                        </button>
+                            </div>
 
-                        <button class="btn btn-white">
-                            Mac
-                        </button>
+                            <div class="hidden">
+                                <p>
+                                    En tant que coach sportif, votre visibilité est cruciale pour attirer de nouveaux
+                                    clients et développer votre entreprise. Avoir un site internet professionnel est
+                                    l'un des meilleurs moyens de vous faire connaître et de vous démarquer de la
+                                    concurrence. Un site internet vous permet de présenter vos services de manière
+                                    claire et efficace. Vous pouvez également montrer des témoignages de clients
+                                    satisfaits et des photos de vos séances d'entraînement.
+
+                                    Un site internet vous permet également de rester en contact avec vos clients actuels
+                                    et potentiels, et de leur donner des informations sur les dernières nouveautés et
+                                    événements. Vous pouvez même utiliser des outils de réservation en ligne pour
+                                    simplifier la gestion de vos rendez-vous. En somme, avoir un site internet
+                                    professionnel vous permettra de vous faire connaître auprès d'un public plus large
+                                    et de gérer efficacement votre entreprise.
+                                </p>
+                            </div>
+                        </div>
                     </div>
+
                 </div>
             </div>
 
             <div class="faq" id='faq'>
                 <div class="faq__content">
                     <h2>
-                        Frequently Asked Questions
+                        FAQ
                     </h2>
 
                     <p>
-                        Check the common questions ....
+                        Questions fréquentes
                     </p>
 
                     <div class="faq__content__drops">
@@ -643,7 +655,7 @@
             <div class="updates" id='blog'>
                 <div class="updates__content">
                     <h2>
-                        Latest updates
+                        Articles de blog
                     </h2>
 
                     <p class="text text-grey">
@@ -793,9 +805,9 @@
             <div class="footer__content">
                 <div class="footer__content__item">
                     <p class="text text-white">
-                        © 2022 <a href="index.php">FitnessAvenue</a>
+                        © 2023 <a href="index.php">FitnessAvenue</a>
                         <strong> <br>
-                            All rights reserved
+                            Tous droits réservés
                         </strong>
                     </p>
                 </div>
